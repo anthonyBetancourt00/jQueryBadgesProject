@@ -1,5 +1,5 @@
 {
-  "name": "project-html-portfolio",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -9,9 +9,13 @@
     "test-watch": "npm test -- --bail --watch",
     "deploy:github-pages": "git subtree push --prefix src origin gh-pages"
   },
-  "author": "Sergio Cruz <sergio@codeschool.com>",
+  "author": "anthony betancourt",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-autoprefixer": "~3.1.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "~1.6.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-register": "^6.18.0",
     "browser-sync": "^2.14.0",
